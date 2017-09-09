@@ -3,14 +3,17 @@
 The Amazon Fine Food Reviews dataset consists of 568,454 food reviews. This dataset consists of a single CSV file, Reviews.csv
 
 <b>Dataset statistics</b>
+<pre>
     Number of reviews     568,454
     Number of users     256,059
     Number of products     74,258
     Users with > 50 reviews     260
     Median no. of words per review     56
     Timespan     Oct 1999 - Oct 2012
+</pre>
 
 <b>Data Fields Explanation</b>
+<pre>
     Id - Unique row number
     ProductId - unique identifier for the product
     UserId - unqiue identifier for the user
@@ -21,7 +24,8 @@ The Amazon Fine Food Reviews dataset consists of 568,454 food reviews. This data
     Time - timestamp for the review
     Summary - brief summary of the review
     Text - text of the review
-    
+</pre>
+
 ## Objective
 
 Analysing the data & plot the required graphs to show that these conclusions are true:
