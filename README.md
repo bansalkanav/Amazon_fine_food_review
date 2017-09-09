@@ -2,6 +2,9 @@
 ## Introduction
 The Amazon Fine Food Reviews dataset consists of 568,454 food reviews. This dataset consists of a single CSV file, Reviews.csv
 
+<b>Data Set</b>
+Get the data set from <a href="https://www.kaggle.com/snap/amazon-fine-food-reviews">here</a>
+
 <b>Dataset statistics</b>
 <pre>
     Number of reviews     568,454
