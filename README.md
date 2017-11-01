@@ -30,7 +30,7 @@ The Amazon Fine Food Reviews dataset consists of 568,454 food reviews. This data
     Text - text of the review
 </pre>
 
-## Objective
+## EDA Objective
 
 Analysing the data & plot the required graphs to show that these conclusions are true:
 <pre>
@@ -41,3 +41,20 @@ d. Despite being more common and shorter, positive reviews are found more helpfu
 e. Frequent reviewers are more discerning in their ratings, write longer reviews, and write more helpful reviews
 </pre>
 <b>Note:</b> This notebook is highly inspired from the <a href="http://blog.nycdatascience.com/student-works/amazon-fine-foods-visualization/">Exploratory visualization of Amazon fine food reviews by Rob Castellano.</a>
+
+## Model Building
+<pre>
+    STEP-1: Copy the data in Pandas DataFrame and drop unwanted columns.
+    STEP-2: Text Preprocessing.
+            a. Converting to lower-case.
+            b. Removing HTML Tags.
+            c. Removing Special Characters.
+            d. Removing Stop Words.
+            e. Stemming (Snowball Stemming)
+    STEP-3: Vectorizing out Data Set
+    STEP-4: Building and evaluating the model
+            a. Naive Bayes
+            b. Logistic Regression - with L1 and L2 regularizors
+            c. Linear SVM
+            d. RBF Kernel SVM 
+</pre>
